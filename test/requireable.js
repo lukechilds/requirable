@@ -1,5 +1,7 @@
 import test from 'ava';
 
-test(`importing doesn't throw`, t => {
-	t.notThrows(() => require('../'));
+test.serial(`outputs success info`, t => {
+	const output = require('../');
+	t.true(output.success);
+	t.is(output.name, 'requireable');
 });
