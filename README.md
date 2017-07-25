@@ -1,5 +1,7 @@
 # requireable
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lukechilds/requireable.svg)](https://greenkeeper.io/)
+
 > Allows current module to require itself in tests
 
 [![Build Status](https://travis-ci.org/lukechilds/requireable.svg?branch=master)](https://travis-ci.org/lukechilds/requireable)
