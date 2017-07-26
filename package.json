@@ -30,8 +30,7 @@
   },
   "homepage": "https://github.com/lukechilds/requireable",
   "dependencies": {
-    "find-root": "^1.1.0",
-    "mock-require": "^2.0.2"
+    "find-root": "^1.1.0"
   },
   "devDependencies": {
     "ava": "^0.19.1",
