@@ -1,6 +1,6 @@
 {
   "name": "requireable",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Allows current module to require itself in tests",
   "main": "src/index.js",
   "scripts": {
