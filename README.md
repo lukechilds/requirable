@@ -24,6 +24,20 @@ require('requirable');
 
 That's it! You can now do `require('package-name')`.
 
+## AVA Usage
+
+Some tests runners such as AVA can require packages automatically for you. If you're using AVA add the following to your package.json:
+
+```json
+"ava": {
+  "require": [
+    "requireable"
+  ]
+},
+ ```
+
+ You can now `require` your package in your AVA tests.
+
 ## License
 
 MIT © Luke Childs
