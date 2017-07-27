@@ -37,7 +37,7 @@ Some tests runners such as [AVA](https://github.com/avajs/ava) can require packa
 },
  ```
 
- You can now `require` (or `import`) your package in your AVA tests.
+ You can now `require` (or `import`) your package in your AVA tests by name.
 
  e.g instead of:
 
