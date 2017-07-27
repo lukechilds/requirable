@@ -16,6 +16,14 @@ Especially useful in tests if you want to require the package you're testing by 
 npm install --save-dev requireable
 ```
 
+## Usage
+
+```js
+require('requirable');
+```
+
+That's it! You can now do `require('package-name')`.
+
 ## License
 
 MIT © Luke Childs
