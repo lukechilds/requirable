@@ -37,7 +37,22 @@ Some tests runners such as AVA can require packages automatically for you. If yo
 },
  ```
 
- You can now `require` your package in your AVA tests.
+ You can now `require` (or `import`) your package in your AVA tests.
+
+ e.g instead of:
+
+ ```js
+ import test from 'ava';
+ import myPackage from '../';
+ ```
+
+ You can now do:
+
+ ```js
+ import test from 'ava';
+ import myPackage from 'package-name';
+ ```
+
 
 ## License
 
