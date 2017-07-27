@@ -53,6 +53,31 @@ Some tests runners such as [AVA](https://github.com/avajs/ava) can require packa
  import myPackage from 'package-name';
  ```
 
+## API
+
+### require('requireable')
+
+Patches the require function to be able to require the current module by name.
+
+Returns an object.
+
+#### obj.success
+
+Type: `boolean`
+
+True or false depending on whether we could find `package.json`.
+
+#### obj.path
+
+Type: `undefined`, `string`
+
+Path to the folder containing `package.json`.
+
+#### obj.name
+
+Type: `undefined`, `string`
+
+Name of the module in `package.json`.
 
 ## License
 
