@@ -8,7 +8,7 @@
 
 Mocks the require command to include the current package when the `name` from the current `package.json` is required.
 
-Uses `process.cwd()` to find the current `package.json` so this is only meant to be used as a dev dependency for testing. This will not work on a published package!
+Uses `process.cwd()` to find the current `package.json` so this is only meant to be used in scripts executed from the CLI. This will not work on a published package!
 
 ## Install
 
