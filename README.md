@@ -6,9 +6,9 @@
 [![Coverage Status](https://coveralls.io/repos/github/lukechilds/requireable/badge.svg?branch=master)](https://coveralls.io/github/lukechilds/requireable?branch=master)
 [![npm](https://img.shields.io/npm/v/requireable.svg)](https://www.npmjs.com/package/requireable)
 
-Mocks the require command to include the current package when the the `name` from the current packages `package.json` is required.
+Mocks the require command to include the current package when the `name` from the current `package.json` is required.
 
-Especially useful in tests if you want to require the package you're testing by name rather than relative paths.
+Uses `process.cwd()` to find the current `package.json` so this is only meant to be used as a dev dependency for testing. This will not work on a published package!
 
 ## Install
 
