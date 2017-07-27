@@ -22,7 +22,7 @@ npm install --save-dev requireable
 require('requirable');
 ```
 
-That's it! You can now do `require('package-name')`.
+That's it! `require` has now been patched and you can now do `require('package-name')`.
 
 ## AVA Usage
 
