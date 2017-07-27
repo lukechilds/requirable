@@ -1,7 +1,7 @@
 {
   "name": "requireable",
   "version": "1.0.0",
-  "description": "Enables a module to require itself by name in tests",
+  "description": "Enables a module to require itself by name",
   "main": "src/index.js",
   "scripts": {
     "test": "xo && nyc ava",
