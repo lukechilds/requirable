@@ -20,9 +20,10 @@ npm install --save-dev requireable
 
 ```js
 require('requirable');
-```
+// That's it! `require` has now been patched
 
-That's it! `require` has now been patched and you can now do `require('package-name')`.
+const myPackage = require('package-name')
+```
 
 ## AVA Usage
 
