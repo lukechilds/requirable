@@ -27,7 +27,7 @@ const myPackage = require('package-name')
 
 ## AVA Usage
 
-Some tests runners such as AVA can require packages automatically for you. If you're using AVA add the following to your package.json:
+Some tests runners such as [AVA](https://github.com/avajs/ava) can require packages automatically for you. If you're using AVA add the following to your package.json:
 
 ```json
 "ava": {
