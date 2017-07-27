@@ -1,6 +1,6 @@
 # requireable
 
-> Enables a module to require itself
+> Enables a module to require itself by name in tests
 
 [![Build Status](https://travis-ci.org/lukechilds/requireable.svg?branch=master)](https://travis-ci.org/lukechilds/requireable)
 [![Coverage Status](https://coveralls.io/repos/github/lukechilds/requireable/badge.svg?branch=master)](https://coveralls.io/github/lukechilds/requireable?branch=master)
