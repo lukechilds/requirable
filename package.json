@@ -1,6 +1,6 @@
 {
   "name": "requirable",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Enables a module to require itself by name",
   "main": "src/index.js",
   "scripts": {
