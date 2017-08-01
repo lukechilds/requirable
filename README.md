@@ -1,10 +1,10 @@
-# requireable
+# requirable
 
 > Enables a module to require itself by name
 
-[![Build Status](https://travis-ci.org/lukechilds/requireable.svg?branch=master)](https://travis-ci.org/lukechilds/requireable)
-[![Coverage Status](https://coveralls.io/repos/github/lukechilds/requireable/badge.svg?branch=master)](https://coveralls.io/github/lukechilds/requireable?branch=master)
-[![npm](https://img.shields.io/npm/v/requireable.svg)](https://www.npmjs.com/package/requireable)
+[![Build Status](https://travis-ci.org/lukechilds/requirable.svg?branch=master)](https://travis-ci.org/lukechilds/requirable)
+[![Coverage Status](https://coveralls.io/repos/github/lukechilds/requirable/badge.svg?branch=master)](https://coveralls.io/github/lukechilds/requirable?branch=master)
+[![npm](https://img.shields.io/npm/v/requirable.svg)](https://www.npmjs.com/package/requirable)
 
 Mocks the require command to include the current package when the `name` from the current `package.json` is required.
 
@@ -13,7 +13,7 @@ Uses `process.cwd()` to find the current `package.json` so this is only meant to
 ## Install
 
 ```shell
-npm install --save-dev requireable
+npm install --save-dev requirable
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ Some tests runners such as [AVA](https://github.com/avajs/ava) can require packa
 ```json
 "ava": {
   "require": [
-    "requireable"
+    "requirable"
   ]
 },
  ```
@@ -55,7 +55,7 @@ Some tests runners such as [AVA](https://github.com/avajs/ava) can require packa
 
 ## API
 
-### require('requireable')
+### require('requirable')
 
 Patches the require function to be able to require the current module by name.
 
